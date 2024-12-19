@@ -359,6 +359,9 @@ body {
     color: #000000;
 }
 
+
+/* Quick fix section:
+
 /* Disable horizontal scrollbar */
 html, body {
     margin: 0;
