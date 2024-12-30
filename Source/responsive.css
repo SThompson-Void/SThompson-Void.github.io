@@ -20,7 +20,7 @@
         right: 0;
         padding: 0 3rem;
         top: 75px;
-        background-image: linear-gradient(180deg, #000000, #000000, #000000);
+        background-image: linear-gradient(90deg, #000000, #000000, #000000);
         display: none;
         transition: all 0.25s;
     }
@@ -40,8 +40,9 @@
     }
   
     .about .about-image img {
-        width: 90%;
-        padding: 1rem;
+        width: 100px;
+        height: 100px;
+        padding: 0rem;
     }
   
     .services {
@@ -103,12 +104,11 @@
         margin: 0;
         padding: 2rem 0;
         justify-content: center;
-        color: #fff;
-        background-image: radial-gradient(circle, rgb(15 14 14 / 30%), rgb(102 96 96 / 40%), rgb(163 160 160 / 16%)), url('./Images/heroImg3.avif');
+        color: #000000;
     }
   
     .sub-heading {
-        color: #fff9f9cc;
+        color: #0a0a0acc;
     }
   
     .hero .intro-buttons {
@@ -124,7 +124,7 @@
         right: 0;
         padding: 0 2rem;
         top: 75px;
-        background-image: linear-gradient(180deg, #000000, #000000, #000000);
+        background-image: linear-gradient( 90deg, #000000, #000000, #000000);
         display: none;
         transition: all 0.25s;
     }
@@ -144,8 +144,10 @@
     }
   
     .about .about-image img {
-        width: 90%;
-        padding: 1rem;
+        aspect-ratio: auto;
+        width: 300px;
+        height: 400px;
+        padding: 0rem;
     }
   
     .services {
