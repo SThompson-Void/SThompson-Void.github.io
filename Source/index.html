@@ -15,9 +15,6 @@
     <link rel="stylesheet" href="responsive.css">
 </head>
 
-
-
-
 <body>
     <!-- Navbar header section -->
     <header class="header">
@@ -51,13 +48,25 @@
                               Contact Me
                           </a>
                     </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="https://www.linkedin.com/in/stephen-thompson-48b906296/">
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="https://github.com/SThompson-Void">
+                            GitHub
+                        </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="https://www.youtube.com/channel/UCnw6B1pNywFs-iEbYFvhemA">
+                            YouTube
+                        </a>
+                    </li>
                 </ul>
             </div>
         </nav>
     </header>
-
-
-
 
     <!-- Main hero banner -->
     <section id="home" class="hero">
@@ -78,9 +87,6 @@
           <img src="/Resources/StephenPortraitPhoto.jpg"  alt="Stephen Thompson" class="hero-image">
       </div>
     </section>
-
-
-
 
     <!-- Portfolio Section -->
     <section class="portfolio" id="portfolio">
@@ -132,9 +138,6 @@
         </div>
     </section>
 
-
-
-
 <!-- About Section -->
 <section id="about" class="about">
     <div class="about-text">
@@ -172,8 +175,6 @@
     </div>
 </section>
 
-
-
     <!-- Contact me section -->
     <section class="contact" id="contact">
         <div class="contact-heading">
@@ -182,20 +183,12 @@
         <div class="contact-content">
             <div class="contact-form-container">
                 <h1 class="greet-heading">Get In Touch for Resume etc...</h1>
-                <form class="contact-form" id="contactForm" action="http://localhost:5500/send" method="POST">
-                    <input class="form-controls" type="text" 
-                           placeholder="Your Name">
-                    <input class="form-controls" type="text" 
-                           placeholder="Your Email">
-                    <input class="form-controls" type="text" 
-                           placeholder="Your Phone">
-                    <textarea class="form-controls" 
-                              placeholder="Write your message" 
-                              name="message" id="" cols="30"
-                              rows="10">
-                      </textarea>
-                    <input class="form-btn btn common-btn" 
-                           type="submit" value="Send Message">
+                <form class="contact-form" id="contactForm">
+                    <input class="form-controls" type="text" id="name" placeholder="Your Name" required>
+                    <input class="form-controls" type="email" id="email" placeholder="Your Email" required>
+                    <input class="form-controls" type="text" id="phone" placeholder="Your Phone">
+                    <textarea class="form-controls" id="message" placeholder="Write your message" name="message" cols="30" rows="10" required></textarea>
+                    <button class="form-btn btn common-btn" type="button" onclick="sendMail()">Send Message</button>
                 </form>
             </div>
             <div class="contact-details">
@@ -213,9 +206,6 @@
         </div>
     </section>
 
-
-
-
     <!-- Footer section -->
     <footer class="footer">
         <div class="footer-content text-center">
@@ -228,6 +218,16 @@
                         <li class="footer-list-items">
                             <a class="footer-links" href="https://www.linkedin.com/in/stephen-thompson-48b906296/" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://github.com/SThompson-Void" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="https://www.youtube.com/channel/UCnw6B1pNywFs-iEbYFvhemA" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-youtube"></i>
                             </a>
                         </li>
                     </ul>

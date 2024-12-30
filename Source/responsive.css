@@ -10,11 +10,11 @@
         text-align: center;
         padding: 2rem 1rem;
     }
-  
+
     .logo {
         padding: 0 3rem;
     }
-  
+
     .menu {
         position: absolute;
         right: 0;
@@ -24,71 +24,71 @@
         display: none;
         transition: all 0.25s;
     }
-  
+
     .menu .menu-list {
         flex-direction: column;
     }
-  
+
     .portfolio {
         margin-top: 2rem;
         padding: 0;
     }
-  
+
     .about .about-text {
         width: 90%;
         padding: 1rem;
     }
-  
+
     .about .about-image img {
         width: 100px;
         height: 100px;
         padding: 0rem;
     }
-  
+
     .services {
         padding: 0;
     }
-  
+
     .my-row {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 1.5rem;
     }
-  
+
     .my-row .my-col {
         text-align: center;
         width: 100%;
     }
-  
+
     .contact {
         padding: 0;
     }
-  
+
     .contact-content {
         flex-direction: column;
         align-items: center;
         gap: 2rem;
     }
-  
+
     .contact-form-container {
         width: 90%;
     }
-  
+
     .contact-form .form-controls, .contact-form .form-btn {
         width: 100%;
     }
-  
+
     .contact-details {
         width: 90%;
     }
-  
+
     .footer-menu {
         padding: 1rem 0;
         text-align: center;
     }
   }
-  
+
   /* CSS for devices between 280px and 576px */
   @media screen and (min-width: 280px) and (max-width: 576px) {
     section, .hero, .portfolio, .about, .services, .contact {
@@ -99,26 +99,26 @@
         text-align: center;
         padding: 2rem 1rem;
     }
-  
+
     .hero {
         margin: 0;
         padding: 2rem 0;
         justify-content: center;
         color: #000000;
     }
-  
+
     .sub-heading {
         color: #0a0a0acc;
     }
-  
+
     .hero .intro-buttons {
         gap: 20px;
     }
-  
+
     .logo {
         padding: 0 2rem;
     }
-  
+
     .menu {
         position: absolute;
         right: 0;
@@ -128,66 +128,66 @@
         display: none;
         transition: all 0.25s;
     }
-  
+
     .menu .menu-list {
         flex-direction: column;
     }
-  
+
     .portfolio {
         margin-top: 2rem;
         padding: 0;
     }
-  
+
     .about .about-text {
         width: 90%;
         padding: 1rem;
     }
-  
+
     .about .about-image img {
         aspect-ratio: auto;
         width: 300px;
         height: 400px;
         padding: 0rem;
     }
-  
+
     .services {
         padding: 0;
     }
-  
+
     .my-row {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 1.5rem;
     }
-  
+
     .my-row .my-col {
         text-align: center;
         width: 100%;
     }
-  
+
     .contact {
         padding: 0;
     }
-  
+
     .contact-content {
         flex-direction: column;
         align-items: center;
         gap: 2rem;
     }
-  
+
     .contact-form-container {
         width: 90%;
     }
-  
+
     .contact-form .form-controls, .contact-form .form-btn {
         width: 100%;
     }
-  
+
     .contact-details {
         width: 90%;
     }
-  
+
     .footer-menu {
         padding: 1rem 0;
         text-align: center;
@@ -195,7 +195,7 @@
 
     @media screen and (max-width: 768px) {
         .hero {
-            margin-top: 60px;
+            margin-top: 90px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -204,13 +204,13 @@
             padding: 2rem 0; /* Add padding for spacing */
             height: calc(125vh - 60px); /* Make it fill the viewport height */
         }
-    
+
         .hero .intro {
             margin: 0; /* Remove any extra margins */
             padding: 0; /* Reset padding */
             width: 90%; /* Adjust width for smaller screens */
         }
-    
+
         .hero .image-container {
             display: flex;
             justify-content: center; /* Center the image */
@@ -219,7 +219,7 @@
             margin-left: 2rem;
             width: 90%;
         }
-    
+
         .hero .image-container img {
             max-width: 100%; /* Ensure the image is responsive */
             height: auto; /* Maintain aspect ratio */
@@ -227,4 +227,3 @@
         }
     }
   }
-  
