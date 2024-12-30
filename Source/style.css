@@ -197,6 +197,7 @@ body {
 
 /* Contact section styles */
 .contact {
+    margin-top: 2rem;
     padding: 0 5rem;
 }
 
