@@ -83,6 +83,9 @@ body {
     display: flex;
     justify-content: flex-start; /* Align image closer to the left */
     margin-left: -5rem; /* Negative margin to shift the image further left */
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
 }
 
 .hero-image {
@@ -123,7 +126,7 @@ body {
 
 /* Portfolio section styles */
 .portfolio {
-    margin: 4.8rem 0;
+    margin: 6rem 0;
     padding: 0 5rem;
 }
 
@@ -285,8 +288,8 @@ body {
 
 .sub-heading {
     margin: 0;
-    font-size: 0.8rem;
-    color: #ccc;
+    font-size: 1rem;
+    color: #2c2c2c;
     font-weight: lighter;
 }
 
@@ -381,3 +384,6 @@ section, div {
     max-width: 100%;
 }
 
+html, body {
+    touch-action: manipulation; /* Disables gestures like double-tap zoom */
+}

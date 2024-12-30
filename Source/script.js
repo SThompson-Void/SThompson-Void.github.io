@@ -14,5 +14,10 @@ hamburger.addEventListener('click', function () {
         hamIcon.style.display = "none"
         menu.style.display = "block"
     }
+
+});
+
+document.addEventListener('gesturestart', function (event) {
+    event.preventDefault();
 });
 
